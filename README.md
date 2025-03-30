@@ -60,8 +60,10 @@ This is used to launch backend servers in parallel from code.
    - Run PaxBalanceProj
    - Run LoadBalancer project
    - Run ClientProject
-![image](https://github.com/user-attachments/assets/91063bc1-bb78-4ce1-aea4-5db290fcb96f)
-![image](https://github.com/user-attachments/assets/235ab3dc-0b92-402f-8a70-a1743bde45f3)
-![image](https://github.com/user-attachments/assets/b44f4402-bf53-4684-92c3-ab22c70f4660)
+
+![image](https://github.com/user-attachments/assets/aeb9633d-3a04-46c4-9420-a5f37d6b9d29)
+![image](https://github.com/user-attachments/assets/33f00576-5231-4866-ad27-a09e3e795a8e)
+![image](https://github.com/user-attachments/assets/86e01c23-5b2c-4c26-9b2b-93b1874e7472)
+
 
 
