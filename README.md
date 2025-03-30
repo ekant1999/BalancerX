@@ -1,6 +1,6 @@
-# ⚖️ LoadLight (C#) – Application-Layer HTTP Load Balancer
+# ⚖️ PaxBalancer (C#) – Application-Layer HTTP Load Balancer
 
-**LoadLight** is a lightweight, multi-threaded HTTP load balancer written from scratch in **C#**. It distributes incoming HTTP requests across multiple backend servers using a **round-robin algorithm**, and ensures **high availability** through periodic **health checks**.
+**PaxBalancer** is a lightweight, multi-threaded HTTP load balancer written from scratch in **C#**. It distributes incoming HTTP requests across multiple backend servers using a **round-robin algorithm**, and ensures **high availability** through periodic **health checks**.
 
 This project was built to deepen understanding of networking, concurrency, and fault tolerance by implementing all core features manually using .NET sockets and threading.
 
