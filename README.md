@@ -21,3 +21,42 @@ This project was built to deepen understanding of networking, concurrency, and f
   Backend servers can be configured to delay or crash after a number of requests to test load balancer fault handling.
 
 ---
+# PaxBalancer System
+
+This repository contains a complete setup for a load-balanced server-client system with the following components:
+
+- **PaxBalanceProj** – Launches all server instances in parallel.
+- **ServerProject** – Contains the server implementations.
+- **LoadBalancer** – Routes client requests to server instances.
+- **Client** – Sends requests to the load balancer.
+
+## 🏃‍♂️ Running the Project
+
+### 🧱 Prerequisites
+- [.NET 6 SDK or later](https://dotnet.microsoft.com/download)
+- Git CLI or any Git GUI
+
+---
+
+### 📥 1. Clone the Repository
+
+- git clone https://github.com/your-username/PaxBalanceProj.git
+- cd PaxBalanceProj
+
+### 📥 2. Build All Projects
+
+- dotnet build PaxBalanceProj.sln
+
+### 📥 3. Build ServerProject and Copy exe
+- If you built in Debug mode:
+    ServerProject/bin/Debug/net6.0/ServerProject.exe
+-  If you built in Release mode:
+     ServerProject/bin/Release/net6.0/ServerProject.exe
+- Copy the full path and update the exePath variable in Program.cs of the PaxBalanceProj.
+This is used to launch backend servers in parallel from code.
+
+### 📥 4. Start the Load Balancing System
+- Run projects in this order:
+   - Run PaxBalanceProj
+   - Run LoadBalancer project
+   - Run ClientProject
